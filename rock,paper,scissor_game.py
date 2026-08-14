@@ -81,8 +81,9 @@ def play_game():
 
         elif repeat != "yes":
             print("ERROR INPUT")
-            print("Please enter only yes or no.")
-            continue
+            last_end()
+            scorecard()
+            break
 
 
 play_game()
